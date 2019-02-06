@@ -1,0 +1,41 @@
+html, body {
+
+	height: 100%;
+	width: 100%;
+}
+body {
+	background-image: url(https://images.wallpaperscraft.com/image/city_aerial_view_fog_134117_1920x1080.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+div, .btn-light {
+	position: absolute; 
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+div {
+	width: 100%;
+	color: white;
+	font-size: 100px;
+	text-align: center;
+    border: white;
+    text-shadow: 4px 2px black; 
+}
+.btn-light {
+	cursor: pointer;
+	margin-top: 250px;
+    font-size: 80px;
+    background-color: rgba(4, 3, 3, 0.4);
+	color: red;
+    font-family: 'Oswald', sans-serif;
+    border-radius: 15px;
+    text-shadow: 4px 2px black; 
+    border: solid black;
+  
+}
+.btn-light:hover {
+	font-size: 90px;
+}	
+
