@@ -39,7 +39,9 @@ div {
 	font-size: 90px;
 }	
 a {
+-webkit-text-decoration: none;
 text-decoration: none;
+-webkit-color: red;
 color: red;
 }
 
