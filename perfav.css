@@ -38,4 +38,8 @@ div {
 .btn-light:hover {
 	font-size: 90px;
 }	
+a {
+text-decoration: none;
+color: red;
+}
 
