@@ -36,7 +36,8 @@ li a {
 
 a {
     text-decoration: none; 
-    color: white;    
+    color: white;   
+    font-size: 0.7em;
 }
 
 .grid_system > div{
