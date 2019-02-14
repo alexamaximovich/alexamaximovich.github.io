@@ -91,7 +91,7 @@ a {
  **********************************************************************/
 .red {
     
-    height: 12em;
+    height: 500vh;
 
     background: #C655BE; /* Old browsers */
     background: -moz-linear-gradient(top, #C655BE 0%, #cf0404 100%); /* FF3.6+ */
