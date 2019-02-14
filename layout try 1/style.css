@@ -5,6 +5,12 @@ html, body {
     padding: 0;
  }
 /*  NAVBAR (float: right was changed to position) */
+@media only screen and (max-width: 600px) {
+    ul {
+        font-size: 0.5em;
+        padding: 0;
+    }
+   } 
 ul {
   list-style-type: none;
   margin: 0;
