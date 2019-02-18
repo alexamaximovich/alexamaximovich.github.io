@@ -86,7 +86,7 @@ padding: 15px;
 button {
 	height: 5em;
 	width: 20em;
-	font-size: 1em;
+	font-size: 25px;
 }
 .fbutton {
 	background-color: #276EF2;
@@ -141,8 +141,8 @@ ol {
 }
 .color img {
 	padding: 5px;
-	width: 50px;
-	height: 50px;
+	width: 100px;
+	height: 100px;
 }
 .round {
 transition: 0.4s;
