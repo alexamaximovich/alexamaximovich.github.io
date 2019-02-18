@@ -1,0 +1,183 @@
+body {
+	margin: auto 0;
+}
+
+/*TOP NAV*/
+/*nav {
+	border: 2px solid green; 
+}*/
+.blue {
+	background-image: linear-gradient(#0291A5, #8CBED4);
+}
+ul {
+	/*border: 2px solid red;*/ 
+	display: flex;
+	list-style: none;
+	margin: 0;
+
+}
+li { 
+	padding: 10px; 
+	transition: linear 0.3s;
+}
+li:hover {
+	background-color: rgba(2, 106, 121, 0.5);
+}
+a {
+	text-decoration: none;	
+	color: white;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 20px;
+}
+.left {
+	margin-left: auto;
+}
+ @media only screen and (max-width: 600px) {
+ .all_links {
+ 	font-size: 0.5em; 
+ 	padding: 0;
+ }
+}
+
+/*MAIN PART*/
+.container {
+	display: grid;
+	/*grid-row-gap: 10px; */
+	grid-template-columns: 2fr 1.2fr;
+
+}
+.container > div {
+	/*border: 2px solid purple;*/
+}
+
+article {
+	text-indent: 1em;
+	grid-column-start: 1;
+	grid-column-end: 3;
+	font-family: 'Arimo', sans-serif;
+	padding: 15px;
+}
+.picture > h1 {
+	font-family: 'Arimo', sans-serif;
+	text-indent: 1em;
+	padding: 0;
+
+}
+.picture > .quote, .jobs {
+	font-family: 'Caveat', cursive;
+	font-size: 30px;
+	width: auto;
+	padding: 1em 2em 0em 2em;
+	text-indent: 1em;
+}
+.jobs {
+	text-align: right;
+	padding: 1em 2em 2em 2em;
+}
+picture {
+	margin: 0;
+}
+/*BUTTONzzz*/
+.picture > button {
+width: 97%;
+margin: 10px;
+padding: 15px;
+}
+button {
+	height: 5em;
+	width: 20em;
+	font-size: 1em;
+}
+.fbutton {
+	background-color: #276EF2;
+	color: white;
+}
+.fbutton:hover {
+	background-color: black;
+}
+.sbutton {
+	background-color: white;
+	color: #276EF2;
+	border-style: 1px solid #276EF2;
+}
+.sbutton:hover {
+	border-style: black;
+	color: black;
+}
+
+/*SIDEBAR*/
+div .sidebar {
+	grid-row-start: span 1/4;
+	background-image: url("oscar.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+
+}
+.media {
+	font-family: 'Lilita One', cursive;
+	color: black;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+
+	font-size: 1.5em;
+}
+
+.container2 div {
+	border: 3px solid #969CE9;
+	 border-radius: 10px;
+	 border-style: ridge;
+}
+.color a {
+	color: black;
+}
+ol {
+	list-style-type: none;
+}
+.color {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	justify-items: center;
+	padding: 0;
+}
+.color img {
+	padding: 5px;
+	width: 50px;
+	height: 50px;
+}
+.round {
+transition: 0.4s;
+}
+.round:hover {
+transform: scale(1.5);
+}
+.sidebar > img {
+	width: 100%;
+}
+
+/*GRID FOR PICTURES*/
+.container2 {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+	grid-gap: 1em;
+	background-image: linear-gradient(white, #744B8E);
+}
+
+.box > img {
+	width: 100%; /*each image will fill the entire piece of the cart and it will be responsive while zooming*/
+}
+.box {
+	padding: 50px;
+	margin: 20px;
+	background-color: white;
+	transition: ease-out 0.8s;
+}
+
+.box:hover {
+	padding: 0;
+	background-color: black;
+	border: black;
+/*FOOTER*/
+}
+footer {
+	text-align: center;
+}
